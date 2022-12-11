@@ -1,11 +1,7 @@
  Watchkit-Local-Notifications-
 
 
-<p align="center">
-  <img 
-src="https://user-images.githubusercontent.com/79598598/206907169-11728e3b-27f5-4d9f-92a9-269b945ac14a.gif" 
-alt="animated" />
-</p>
+
 
 <br>
 Example usage on WatchKit to show:     <br />
