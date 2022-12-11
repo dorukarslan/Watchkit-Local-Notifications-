@@ -14,7 +14,7 @@ class AppDelegate: NSObject, WKApplicationDelegate {
 
     
     func applicationDidFinishLaunching() {
-               print("Bitti")
+               print("Finised")
        }
 
       func applicationDidBecomeActive() {
