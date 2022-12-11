@@ -15,6 +15,11 @@
 		C7761E432945ED930008AA38 /* WatckitNotifications_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7761E422945ED930008AA38 /* WatckitNotifications_Watch_AppTests.swift */; };
 		C7761E4D2945ED930008AA38 /* WatckitNotifications_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7761E4C2945ED930008AA38 /* WatckitNotifications_Watch_AppUITests.swift */; };
 		C7761E4F2945ED930008AA38 /* WatckitNotifications_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7761E4E2945ED930008AA38 /* WatckitNotifications_Watch_AppUITestsLaunchTests.swift */; };
+		C7761E622945EDC00008AA38 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7761E612945EDC00008AA38 /* Home.swift */; };
+		C7761E642945EE0F0008AA38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7761E632945EE0F0008AA38 /* AppDelegate.swift */; };
+		C7761E682945EF130008AA38 /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7761E672945EF130008AA38 /* NotificationHandler.swift */; };
+		C7761E6A2945F3970008AA38 /* tempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7761E692945F3970008AA38 /* tempView.swift */; };
+		C7761E6C2945F4680008AA38 /* secondTempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7761E6B2945F4680008AA38 /* secondTempView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +72,11 @@
 		C7761E482945ED930008AA38 /* WatckitNotifications Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatckitNotifications Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7761E4C2945ED930008AA38 /* WatckitNotifications_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatckitNotifications_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		C7761E4E2945ED930008AA38 /* WatckitNotifications_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatckitNotifications_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C7761E612945EDC00008AA38 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C7761E632945EE0F0008AA38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7761E672945EF130008AA38 /* NotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
+		C7761E692945F3970008AA38 /* tempView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempView.swift; sourceTree = "<group>"; };
+		C7761E6B2945F4680008AA38 /* secondTempView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondTempView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +128,16 @@
 		C7761E302945ED910008AA38 /* WatckitNotifications Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				C7761E6B2945F4680008AA38 /* secondTempView.swift */,
+				C7761E692945F3970008AA38 /* tempView.swift */,
+				C7761E6D2945F4820008AA38 /* NavigationTestViews */,
+				C7761E662945EEFF0008AA38 /* Notification */,
 				C7761E312945ED910008AA38 /* WatckitNotificationsApp.swift */,
 				C7761E332945ED910008AA38 /* ContentView.swift */,
 				C7761E352945ED920008AA38 /* Assets.xcassets */,
 				C7761E372945ED920008AA38 /* Preview Content */,
+				C7761E612945EDC00008AA38 /* Home.swift */,
+				C7761E632945EE0F0008AA38 /* AppDelegate.swift */,
 			);
 			path = "WatckitNotifications Watch App";
 			sourceTree = "<group>";
@@ -149,6 +165,21 @@
 				C7761E4E2945ED930008AA38 /* WatckitNotifications_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "WatckitNotifications Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		C7761E662945EEFF0008AA38 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				C7761E672945EF130008AA38 /* NotificationHandler.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		C7761E6D2945F4820008AA38 /* NavigationTestViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NavigationTestViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,7 +340,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7761E642945EE0F0008AA38 /* AppDelegate.swift in Sources */,
 				C7761E342945ED910008AA38 /* ContentView.swift in Sources */,
+				C7761E6A2945F3970008AA38 /* tempView.swift in Sources */,
+				C7761E682945EF130008AA38 /* NotificationHandler.swift in Sources */,
+				C7761E6C2945F4680008AA38 /* secondTempView.swift in Sources */,
+				C7761E622945EDC00008AA38 /* Home.swift in Sources */,
 				C7761E322945ED910008AA38 /* WatckitNotificationsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

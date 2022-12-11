@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  secondTempView.swift
 //  WatckitNotifications Watch App
 //
 //  Created by Doruk Arslan on 11.12.2022.
@@ -7,17 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct secondTempView: View {
     var body: some View {
-        VStack {
-           Home()
-        }
-        .padding()
+        Text("Second Temp view")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct secondTempView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        secondTempView()
     }
 }
