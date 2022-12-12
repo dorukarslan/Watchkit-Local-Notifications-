@@ -1,4 +1,12 @@
- Watchkit-Local-Notifications-
+ # Watchkit Local Notifications Example
+
+
+
+<p align="center">
+   <img 
+ src="https://user-images.githubusercontent.com/79598598/207005984-bd2f65d7-8a65-405f-84c3-e91fdc5550b0.gif" 
+ alt="animated" />
+ </p>
 
 
 
